@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+
+<section id="home" class="d-none">
+    <div id="welcome" class="d-flex justify-content-center align-items-center my-5">
+
+</div>
+
+<div class="d-flex justify-content-center align-items-center ">
+<button id="logout" class="btn btn-outline-danger">Log out</button>
+
+</div>
+
+</section>
+
+<section id="login" class="d-flex justify-content-center align-items-center m-5  d-none">
+   
+    <div class="w-50 shadow-lg p-5 text-center">
+         <h2>Smart Login System</h2>
+
+    <div>
+  <label for="loginEmail" class="form-label"></label>
+  <input type="email" class="form-control" id="loginEmail" placeholder="Enter your email">
+</div>
+
+<div class="mb-4">
+  <label for="loginPassword" class="form-label"></label>
+  <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password">
+</div>
+
+<div class="d-grid gap-2">
+  <button id="log" class="btn btn-outline-primary" type="button">Login</button>
+</div>
+<span>Don’t have an account? <a href="#" id="signup-link">Sign Up</a></span>
+
+    </div>
+
+
+</section>
+<section id="signup" class="d-flex justify-content-center align-items-center m-5  ">
+   
+    <div class="w-50 shadow-lg p-5 text-center">
+         <h2>Smart Login System</h2>
+
+    <div>
+  <label for="name" class="form-label"></label>
+  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+</div>
+    <div>
+  <label for="signEmail" class="form-label"></label>
+  <input type="email" class="form-control" id="signEmail" placeholder="Enter your email">
+</div>
+
+<div class="mb-4">
+  <label for="signupPassword" class="form-label"></label>
+  <input type="password" class="form-control" id="signupPassword" placeholder="Enter your password">
+</div>
+
+<div class="d-grid gap-2">
+  <button id="sign" class="btn btn-outline-primary" type="button">Sign Up</button>
+</div>
+<span>You have an account?<a href="#" id="signin-link"> Signin </a></span>
+
+    </div>
+
+
+</section>
+
+<section>
+   <div id="warning" class="light-cont d-none ">
+        <div class="box position-relative">
+            <h4 class="pt-5 w-75 mx-auto">Site Name or email is not valid</h4>
+            <div class="d-flex py-2 w-75 mx-auto">
+                <span class="pe-3"><i class="fa-solid fa-circle-arrow-right"></i></span>
+                <p>Please enter a valid email address.</p>
+            </div>
+            <div class="d-flex mb-2 w-75 mx-auto">
+                <span class="pe-3"><i class="fa-solid fa-circle-arrow-right"></i></span>
+                <p>Password: At least 8 characters, one uppercase, one lowercase, one number, and one special character</p>
+            </div>
+            <div class="d-flex pb-4 w-75 mx-auto">
+                <span class="pe-3"><i class="fa-solid fa-circle-arrow-right"></i></span>
+                <p>Name: at least 2 characters long</p>
+            </div>
+            <div id="close"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

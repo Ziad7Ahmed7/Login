@@ -1,0 +1,65 @@
+body{
+    background-color: #24353F;
+}
+
+
+h1{
+    font-family:'Pacifico-500' ;
+    color: aqua;
+}
+
+@font-face {
+    font-family:'Pacifico-500' ;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+h2{
+    color: #17A2B8;
+    font-size: 2.8125rem;
+}
+
+
+
+
+    span {
+        color: white;
+    }
+    span a{
+        color: white;
+    }
+
+    .light-cont{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-cont .box{
+    width: 40%;
+    height: 40%;
+    background-color: white;
+        font-size: 20px;
+
+}
+.light-cont .box i{
+    color: brown;
+}
+
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#close i{
+    font-size: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
